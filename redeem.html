@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlyDreamAir</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+          <a href="./index.html"><img src="./assets/logo.png" alt="logo"></a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+          <nav class="nav">
+              <ul class="nav__list">
+                  <li class="nav__item"><a href="./index.html" class="nav__link">Home</a></li>
+                  <li class="nav__item"><a href="./earn.html" class="nav__link">Earn Points</a></li>
+                  <li class="nav__item"><a href="./redeem.html" class="nav__link">Redeem Points</a></li>
+                  <li class="nav__item"><a href="./account.html" class="nav__link">My Account</a></li>
+              </ul>
+          </nav>
+    </header>
+
+    <!-- Redeem Points -->
+    <section class="redeem-points" id="redeem">
+      <h1 class="section__title section__title--redeem">
+          <strong>Redeem Points</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--redeem">
+        Explore FlyDreamAir Rewards and use your FlyDreamAir Points
+      </p>
+  </section>
+
+  <section class="history-tracking"><h4 id="user-balance"><span id="user-points"></span> pts</h4>
+    <ul id="points-history-list"></ul></section>
+
+  <!-- Loyalty Tiers Section -->
+  <section class="blog blog-redeem" id="blog-loyalty_tiers">
+
+    <!-- heading -->
+    <div class="blog-heading blog-heading--redeem">
+      <h3>Loyalty Tiers</h3>
+      <p>Upgrade your tier and enjoy all the perks.</p> 
+    </div>
+
+    <!-- blog container -->
+    <div class="blog-container">
+
+      <!-- box 1 -->
+      <div class="blog-box blog-box--redeem">
+        <div class="blog-img blog-img--redeem blog-tier">
+          <img src="./assets/bronze.png" alt="Blog image">
+        </div>
+
+        <!-- text -->
+        <div class="blog-text blog-text--redeem">
+          <a href="" class="blog-title blog-title--redeem">Bronze Tier</a>
+          <ul>
+          <li>Free Checked Bag</li>                    
+          <li>Priority Boarding</li>
+          <li>Bonus FlyDreamAir Reward Points</li>
+          </ul>
+          <a href="" class="btn btn-redeem">More</a>
+          <span>2500 PTS</span>
+
+        </div>
+
+      </div>
+
+      <!-- box 2 -->
+      <div class="blog-box blog-box--redeem blog-tier">
+        <div class="blog-img blog-img--redeem">
+          <img src="./assets/silver.png" alt="Blog image">
+        </div>
+
+        <!-- text -->
+        <div class="blog-text blog-text--redeem">
+          <a href="" class="blog-title blog-title--redeem">Silver Tier</a>
+          <ul>
+          <li>All Bronze Benefits</li>                    
+          <li>Flight Upgrade</li>
+          <li>Lounge Access (One-time)</li>
+          </ul>
+          <a href="" class="btn btn-redeem">More</a>
+          <span>5000 PTS</span>
+
+        </div>
+
+      </div>
+
+      <!-- box 3 -->
+      <div class="blog-box blog-box--redeem blog-tier">
+        <div class="blog-img blog-img--redeem">
+          <img src="./assets/gold.png" alt="Blog image">
+        </div>
+
+        <!-- text -->
+        <div class="blog-text blog-text--redeem">
+          <a href="" class="blog-title blog-title--redeem">Gold Tier</a>
+          <ul>
+          <li>All Silver Benefits</li>                    
+          <li>Free Flight Ticket</li>
+          <li>Bonus FlyDreamAir Reward Points</li>
+          </ul>
+          <a href="" class="btn btn-redeem">More</a>
+          <span>10000 PTS</span>
+
+        </div>
+
+      </div>
+
+      <!-- box 4 -->
+      <div class="blog-box blog-box--redeem">
+        <div class="blog-img blog-img--redeem">
+          <img src="./assets/platinum.png" alt="Blog image">
+        </div>
+
+        <!-- text -->
+        <div class="blog-text blog-text--redeem">
+          <a href="" class="blog-title blog-title--redeem">Platinum Tier</a>
+          <ul>
+          <li>All Gold Benefits</li>                    
+          <li>Companion Ticket</li>
+          <li>Unlimited Lounge Access</li>
+          </ul>
+          <a href="" class="btn btn-redeem">More</a>
+          <span>10000 PTS</span>
+
+        </div>
+
+      </div>
+     
+      
+
+    </div>
+
+    <div class="blog-container">
+      <a href="./earn.html" class="btn" id="upgrade-tier-btn">Upgrade Your Tier</a>  
+    </div>
+
+  </section>
