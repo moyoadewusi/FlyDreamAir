@@ -1,145 +1,406 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlyDreamAir</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-          <a href="./index.html"><img src="./assets/logo.png" alt="logo"></a>
-      </div>
-      <button class="nav-toggle" aria-label="toggle navigation">
-          <span class="hamburger"></span>
-          <nav class="nav">
-              <ul class="nav__list">
-                  <li class="nav__item"><a href="./index.html" class="nav__link">Home</a></li>
-                  <li class="nav__item"><a href="./earn.html" class="nav__link">Earn Points</a></li>
-                  <li class="nav__item"><a href="./redeem.html" class="nav__link">Redeem Points</a></li>
-                  <li class="nav__item"><a href="./account.html" class="nav__link">My Account</a></li>
-              </ul>
-          </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FlyDreamAir</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="./index.html"><img src="./assets/logo.png" alt="logo"></a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="./index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="./earn.html" class="nav__link">Earn Points</a></li>
+                        <li class="nav__item"><a href="./redeem.html" class="nav__link">Redeem Points</a></li>
+                        <li class="nav__item"><a href="./account.html" class="nav__link">My Account</a></li>
+                    </ul>
+                </nav>
+        </header>
 
-    <!-- Redeem Points -->
-    <section class="redeem-points" id="redeem">
-      <h1 class="section__title section__title--redeem">
-          <strong>Redeem Points</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--redeem">
-        Explore FlyDreamAir Rewards and use your FlyDreamAir Points
-      </p>
-  </section>
+        <!-- Redeem Points -->
+        <section class="redeem-points" id="redeem">
+            <h1 class="section__title section__title--redeem">
+                <strong>Redeem Points</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--redeem">
+                Explore FlyDreamAir Rewards and use your FlyDreamAir Points
+            </p>
+        </section>
 
-  <section class="history-tracking"><h4 id="user-balance"><span id="user-points"></span> pts</h4>
-    <ul id="points-history-list"></ul></section>
+        <section class="history-tracking"><h4 id="user-balance"><span id="user-points"></span> pts</h4>
+            <ul id="points-history-list"></ul></section>
 
-  <!-- Loyalty Tiers Section -->
-  <section class="blog blog-redeem" id="blog-loyalty_tiers">
+        <!-- Loyalty Tiers Section -->
+        <section class="blog blog-redeem" id="blog-loyalty_tiers">
 
-    <!-- heading -->
-    <div class="blog-heading blog-heading--redeem">
-      <h3>Loyalty Tiers</h3>
-      <p>Upgrade your tier and enjoy all the perks.</p> 
-    </div>
+            <!-- heading -->
+            <div class="blog-heading blog-heading--redeem">
+            <h3>Loyalty Tiers</h3>
+            <p>Upgrade your tier and enjoy all the perks.</p> 
+            </div>
 
-    <!-- blog container -->
-    <div class="blog-container">
+            <!-- blog container -->
+            <div class="blog-container">
 
-      <!-- box 1 -->
-      <div class="blog-box blog-box--redeem">
-        <div class="blog-img blog-img--redeem blog-tier">
-          <img src="./assets/bronze.png" alt="Blog image">
-        </div>
+                <!-- box 1 -->
+                <div class="blog-box blog-box--redeem">
+                    <div class="blog-img blog-img--redeem blog-tier">
+                        <img src="./assets/bronze.png" alt="Blog image">
+                    </div>
 
-        <!-- text -->
-        <div class="blog-text blog-text--redeem">
-          <a href="" class="blog-title blog-title--redeem">Bronze Tier</a>
-          <ul>
-          <li>Free Checked Bag</li>                    
-          <li>Priority Boarding</li>
-          <li>Bonus FlyDreamAir Reward Points</li>
-          </ul>
-          <a href="" class="btn btn-redeem">More</a>
-          <span>2500 PTS</span>
+                    <!-- text -->
+                    <div class="blog-text blog-text--redeem">
+                        <a href="" class="blog-title blog-title--redeem">Bronze Tier</a>
+                        <ul>
+                        <li>Free Checked Bag</li>                    
+                        <li>Priority Boarding</li>
+                        <li>Bonus FlyDreamAir Reward Points</li>
+                        </ul>
+                        <a href="" class="btn btn-redeem">More</a>
+                        <span>2500 PTS</span>
 
-        </div>
+                    </div>
 
-      </div>
+                </div>
 
-      <!-- box 2 -->
-      <div class="blog-box blog-box--redeem blog-tier">
-        <div class="blog-img blog-img--redeem">
-          <img src="./assets/silver.png" alt="Blog image">
-        </div>
+                <!-- box 2 -->
+                <div class="blog-box blog-box--redeem blog-tier">
+                    <div class="blog-img blog-img--redeem">
+                        <img src="./assets/silver.png" alt="Blog image">
+                    </div>
 
-        <!-- text -->
-        <div class="blog-text blog-text--redeem">
-          <a href="" class="blog-title blog-title--redeem">Silver Tier</a>
-          <ul>
-          <li>All Bronze Benefits</li>                    
-          <li>Flight Upgrade</li>
-          <li>Lounge Access (One-time)</li>
-          </ul>
-          <a href="" class="btn btn-redeem">More</a>
-          <span>5000 PTS</span>
+                    <!-- text -->
+                    <div class="blog-text blog-text--redeem">
+                        <a href="" class="blog-title blog-title--redeem">Silver Tier</a>
+                        <ul>
+                        <li>All Bronze Benefits</li>                    
+                        <li>Flight Upgrade</li>
+                        <li>Lounge Access (One-time)</li>
+                        </ul>
+                        <a href="" class="btn btn-redeem">More</a>
+                        <span>5000 PTS</span>
 
-        </div>
+                    </div>
 
-      </div>
+                </div>
 
-      <!-- box 3 -->
-      <div class="blog-box blog-box--redeem blog-tier">
-        <div class="blog-img blog-img--redeem">
-          <img src="./assets/gold.png" alt="Blog image">
-        </div>
+                <!-- box 3 -->
+                <div class="blog-box blog-box--redeem blog-tier">
+                    <div class="blog-img blog-img--redeem">
+                        <img src="./assets/gold.png" alt="Blog image">
+                    </div>
 
-        <!-- text -->
-        <div class="blog-text blog-text--redeem">
-          <a href="" class="blog-title blog-title--redeem">Gold Tier</a>
-          <ul>
-          <li>All Silver Benefits</li>                    
-          <li>Free Flight Ticket</li>
-          <li>Bonus FlyDreamAir Reward Points</li>
-          </ul>
-          <a href="" class="btn btn-redeem">More</a>
-          <span>10000 PTS</span>
+                    <!-- text -->
+                    <div class="blog-text blog-text--redeem">
+                        <a href="" class="blog-title blog-title--redeem">Gold Tier</a>
+                        <ul>
+                        <li>All Silver Benefits</li>                    
+                        <li>Free Flight Ticket</li>
+                        <li>Bonus FlyDreamAir Reward Points</li>
+                        </ul>
+                        <a href="" class="btn btn-redeem">More</a>
+                        <span>10000 PTS</span>
 
-        </div>
+                    </div>
 
-      </div>
+                </div>
 
-      <!-- box 4 -->
-      <div class="blog-box blog-box--redeem">
-        <div class="blog-img blog-img--redeem">
-          <img src="./assets/platinum.png" alt="Blog image">
-        </div>
+                <!-- box 4 -->
+                <div class="blog-box blog-box--redeem">
+                    <div class="blog-img blog-img--redeem">
+                        <img src="./assets/platinum.png" alt="Blog image">
+                    </div>
 
-        <!-- text -->
-        <div class="blog-text blog-text--redeem">
-          <a href="" class="blog-title blog-title--redeem">Platinum Tier</a>
-          <ul>
-          <li>All Gold Benefits</li>                    
-          <li>Companion Ticket</li>
-          <li>Unlimited Lounge Access</li>
-          </ul>
-          <a href="" class="btn btn-redeem">More</a>
-          <span>10000 PTS</span>
+                    <!-- text -->
+                    <div class="blog-text blog-text--redeem">
+                        <a href="" class="blog-title blog-title--redeem">Platinum Tier</a>
+                        <ul>
+                        <li>All Gold Benefits</li>                    
+                        <li>Companion Ticket</li>
+                        <li>Unlimited Lounge Access</li>
+                        </ul>
+                        <a href="" class="btn btn-redeem">More</a>
+                        <span>10000 PTS</span>
 
-        </div>
+                    </div>
 
-      </div>
-     
+                </div>
+        
+        
+
+            </div>
+
+            <div class="blog-container">
+            <a href="./earn.html" class="btn" id="upgrade-tier-btn">Upgrade Your Tier</a>  
+            </div>
+
+        </section>
+
+        <!-- Redeem Flights Section -->
+        <section class="blog blog-redeem" id="blog-redeem-flights">
+            <div class="blog-heading blog-heading--redeem">
+                <h3>Flights</h3>
+                <p>Redeem points to book a seat for your next trip.</p> 
+            </div>
+
+            <div class="blog-container">
+                <!-- Sydney to Hanoi Flight -->
+                <div class="blog-box blog-box--redeem">
+                    <div class="blog-img blog-img--redeem">
+                        <img src="./assets/s-t-h.png" alt="Sydney to Hanoi">
+                    </div>
+                    <div class="blog-text blog-text--redeem">
+                        <a href="#" class="blog-title blog-title--redeem">Sydney to Hanoi</a>
+                        <p>Economy one-way</p>
+                        <span>15,000 PTS</span>
+                        <a href="#" id="redeem-sydney-hanoi" class="btn btn-redeem">Redeem Points</a>
+                    </div>
+                </div>
+
+                <!-- Paris to Rome Flight -->
+                <div class="blog-box blog-box--redeem">
+                    <div class="blog-img blog-img--redeem">
+                        <img src="./assets/p-t-r.png" alt="Paris to Rome">
+                    </div>
+                    <div class="blog-text blog-text--redeem">
+                        <a href="#" class="blog-title blog-title--redeem">Paris to Rome</a>
+                        <p>Economy one-way</p>
+                        <span>20,000 PTS</span>
+                        <a href="#" id="redeem-paris-rome" class="btn btn-redeem">Redeem Points</a>
+                    </div>
+                </div>
+
+                <!-- Beijing to Tokyo Flight -->
+                <div class="blog-box blog-box--redeem">
+                    <div class="blog-img blog-img--redeem">
+                        <img src="./assets/b-t-t.png" alt="Sydney to Hanoi">
+                    </div>
+                    <div class="blog-text blog-text--redeem">
+                        <a href="#" class="blog-title blog-title--redeem">Beijing to Tokyo</a>
+                        <p>Economy one-way</p>
+                        <span>12,000 PTS</span>
+                        <a href="#" id="redeem-beijing-tokyo" class="btn btn-redeem">Redeem Points</a>
+                    </div>
+                </div>
+
+                <div class="blog-container">
+                    <button class="btn btn-redeem" id="seat-selection-btn">Seat Selection</button>  
+                    <a href="./earn.html" class="btn btn-redeem" id="">Extra Baggage</a>  
+                    <a href="./earn.html" class="btn btn-redeem" id="">In-Flight Meal</a>  
+                    <a href="./earn.html" class="btn btn-redeem" id="">Priority Queue</a>  
+                </div>
+        
+        
+            </div>
+
+            <!-- Flight Selection -->
+            <div id="flight-selection-section" style="display: none;">
+                <h2>Seat Selection</h2>
+                <p>Please select your flight</p>
+
+                <div class="flight-option">
+                    <img src="./assets/syd-image.png" alt="Sydney Image">
+                    <div class="flight-info">
+                        <p><strong>Departure City:</strong> Sydney (SYD)</p>
+                        <p><strong>Arrival City:</strong> Hanoi (HAN)</p>
+                        <p><strong>Departure Date:</strong> 25th Feb</p>
+                        <p><strong>Return Date:</strong> 21st Mar</p>
+                        <p><strong>Class:</strong> Economy</p>
+                    </div>
+                    <button class="select-flight-btn">Select this flight</button>
+                </div>
+
+                <div class="flight-option">
+                    <img src="./assets/par-image.png" alt="Paris Image">
+                    <div class="flight-info">
+                        <p><strong>Departure City:</strong> Paris (PAR)</p>
+                        <p><strong>Arrival City:</strong> Rome (ROM)</p>
+                        <p><strong>Departure Date:</strong> 13th Sep</p>
+                        <p><strong>Return Date:</strong> 30th Sep</p>
+                        <p><strong>Class:</strong> Business</p>
+                    </div>
+                    <button class="select-flight-btn">Select this flight</button>
+                </div>
+            </div>
+
+            <!-- Seat Selection -->
+
+            <div id="seat-selection-page" style="display: none;">
+                <h2>Seat Selection</h2>
+                <p>Please select your seat</p>
+
+                <div class="seat-selection-container">
+                    <div class="seat-map">
+                        <img src="./assets/seatmap.png" alt="Seat Map"> <!-- Seat map illustration -->
+                        <button class="confirm-seat-btn">Confirm</button>
+                    </div>
+
+                    <div class="seat-info">
+                        <div class="flight-details">
+                            <h3>SYD <span>&rarr;</span> HAN</h3>
+                            <p>Feb 25 | 7:00 AM Departing</p>
+                            <p>Mar 21 | 12:15 PM Arriving</p>
+                        </div>
+
+                        <div class="class-selection">
+                            <div class="class-option selected">
+                                <h4>Economy</h4>
+                                <p>Extended legroom, personalized service, and a multi-course meal service.</p>
+                            </div>
+
+                            <div class="class-option">
+                                <h4>Business Class</h4>
+                                <p>Extended legroom, personalized service, first two checked bags free, and priority boarding.</p>
+                            </div>
+                        </div>
+
+                        <div class="passenger-info">
+                            <p><strong>Passenger 1:</strong> User Name</p>
+                            <p><strong>Points Used:</strong> --</p>
+                        </div>
+
+                        <div class="actions">
+                            <a href="./redeem.html"><button class="save-close-btn">Save and Close</button></a>
+                            <button class="next-flight-btn">Next Flight</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Confirmation Modal -->
+            <div id="confirmation-modal" class="modal" style="display: none;">
+                <div class="modal-content">
+                    <h2>Using FlyDreamAir Points</h2>
+                    <p>Are you sure you want to use <strong>1500pts</strong>?</p>
+                    <div class="modal-actions">
+                        <button id="cancel-btn" class="modal-btn">No, Cancel</button>
+                        <a href="./redeem.html"><button id="proceed-btn" class="modal-btn">Yes, Proceed</button></a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <!-- Hotel & Travel Section -->
+        <section class="blog blog-redeem" id="blog-loyalty_tiers">
+
+            <!-- heading -->
+            <div class="blog-heading blog-heading--redeem">
+                <h3>Hotel & Travel</h3>
+                <p>Save some money and spend your points on hotel and transport.</p> 
+            </div>
+
+            <!-- blog container -->
+            <div class="blog-container">
+
+                <!-- box 1 -->
+                <div class="blog-box blog-box--redeem">
+                    <div class="blog-img blog-img--redeem">
+                        <img src="./assets/syd-bag.png" alt="Blog image">
+                    </div>
+
+                    <!-- text -->
+                    <div class="blog-text blog-text--redeem">
+                        <a href="" class="blog-title blog-title--redeem">Sydney Backpacker</a>
+                        <p>One night stay</p>
+                        <span>7500 PTS</span>
+
+                    </div>
+
+                </div>
+
+                <!-- box 2 -->
+                <div class="blog-box blog-box--redeem">
+                    <div class="blog-img blog-img--redeem">
+                        <img src="./assets/delux-hotel.png" alt="Blog image">
+                    </div>
+
+                    <!-- text -->
+                    <div class="blog-text blog-text--redeem">
+                        <a href="booking.html" class="blog-title blog-title--redeem" id="book-delux-hotel">DeLux Hotel</a>
+                        <p>One night stay</p>
+                        <span>25000 PTS</span>
+
+                    </div>
+
+                </div>
+
+                <!-- box 3 -->
+                <div class="blog-box blog-box--redeem">
+                    <div class="blog-img blog-img--redeem">
+                        <img src="./assets/jasper-stay.png" alt="Blog image">
+                    </div>
+
+                    <!-- text -->
+                    <div class="blog-text blog-text--redeem">
+                    <a href="" class="blog-title blog-title--redeem">Jasper Stay</a>
+                    <p>One night stay</p>
+                    <span>10000 PTS</span>
+
+                    </div>
+
+                </div>
+
+            <div class="blog-container">
+                <a href="./earn.html" class="btn btn-redeem" id="">Accessibility</a>  
+                <a href="./earn.html" class="btn btn-redeem" id="">Airport Pickup</a>  
+                <a href="./earn.html" class="btn btn-redeem" id="">Brunch Buffet</a>  
+                <a href="./earn.html" class="btn btn-redeem" id="">Car Rentals</a>  
+            </div>  
       
 
-    </div>
+        </div>
 
-    <div class="blog-container">
-      <a href="./earn.html" class="btn" id="upgrade-tier-btn">Upgrade Your Tier</a>  
-    </div>
+    </section>
 
-  </section>
+        <!-- <section id="redeem">
+            <h2>Redeem Your Points</h2>
+
+            <form id="redeem-form">
+                <label for="reward">Select a reward:</label>
+                <select id="reward" name="reward">
+                <option value="coffee-mug">Coffee Mug - 200 Points</option>
+                <option value="t-shirt">T-Shirt - 500 Points</option>
+                <option value="voucher">Gift Voucher - 1000 Points</option>
+            </select>
+            <button type="submit">Redeem</button>
+            </form>
+
+            <p id="redeem-result"></p>
+
+            <button id="undo" style="display: none;">Undo Last Redemption</button>
+        </section> -->
+        
+
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            <a href="" class="footer__link">Privacy policy |</a>
+            <a href="" class="footer__link">Cookie policy |</a>
+            <a href="" class="footer__link">Terms & conditions |</a>
+            <a href="" class="footer__link">Keeping your data safe |</a>
+            <a href="" class="footer__link">Feedback</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://twitter.com"><img src="./assets/iconmonstr-twitter-1-240.png"></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com"><img src="./assets/iconmonstr-github-1-240.png"></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com"><img src="./assets/iconmonstr-linkedin-1-240.png"></a></li>
+            </ul>
+        </footer>
+
+        <!-- <script type="module" src="navigation.js"></script> -->
+        <script type="module" src="./js/redeem.js"></script>
+        <!-- <script type="module" src="login.js"></script> -->
+        <!-- <script type="module" src="earn-points.js"></script> -->
+        <script src="./js/index.js"></script>
+        
+    </body>
+</html>
